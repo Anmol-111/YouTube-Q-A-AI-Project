@@ -1,4 +1,4 @@
-# YouTube-Q-A-AI-Project
+# YouTube-Q&A-AI-Project
 🎥 YouTube Q&A Assistant using LangChain + Google Gemini
 This is an interactive Streamlit web app that allows users to ask questions about the content of any YouTube video — powered by LangChain, Google Gemini (via Generative AI APIs), and FAISS vector search.
 
