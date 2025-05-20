@@ -4,7 +4,7 @@ This is an interactive Streamlit web app that allows users to ask questions abou
 
 💡 Just paste a YouTube video ID and ask a question. The app fetches the transcript, chunks it, embeds it, and retrieves the most relevant sections to answer your query accurately using RAG (Retrieval-Augmented Generation).
 
-🚀 Features
+🚀 Features<br>
 ✅ Extracts YouTube video transcripts via youtube-transcript-api
 
 ✅ Chunks and embeds transcript using LangChain + GoogleGenerativeAIEmbeddings
