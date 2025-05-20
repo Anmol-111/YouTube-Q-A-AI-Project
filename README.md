@@ -1,34 +1,63 @@
-# YouTube-Q&A-AI-Project
-🎥 YouTube Q&A Assistant using LangChain + Google Gemini
-This is an interactive Streamlit web app that allows users to ask questions about the content of any YouTube video — powered by LangChain, Google Gemini (via Generative AI APIs), and FAISS vector search.
+<h1>🎥 YouTube Q&A Assistant using LangChain + Google Gemini</h1>
 
-💡 Just paste a YouTube video ID and ask a question. The app fetches the transcript, chunks it, embeds it, and retrieves the most relevant sections to answer your query accurately using RAG (Retrieval-Augmented Generation).
+  <div class="section">
+    <p>
+      This is an interactive <strong>Streamlit</strong> web app that allows users to ask questions about the content of any YouTube video — powered by <strong>LangChain</strong>, <strong>Google Gemini</strong> (via Generative AI APIs), and <strong>FAISS</strong> vector search.
+    </p>
+    <p>
+      💡 Just paste a YouTube video ID and ask a question. The app fetches the transcript, chunks it, embeds it, and retrieves the most relevant sections to answer your query accurately using <strong>RAG (Retrieval-Augmented Generation)</strong>.
+    </p>
+  </div>
 
-🚀 Features<br>
-✅ Extracts YouTube video transcripts via youtube-transcript-api
+  <div class="section">
+    <h2>🚀 Features</h2>
+    <ul>
+      <li>✅ Extracts YouTube video transcripts via <code>youtube-transcript-api</code></li>
+      <li>✅ Chunks and embeds transcript using <code>LangChain</code> + <code>GoogleGenerativeAIEmbeddings</code></li>
+      <li>✅ Stores embeddings in <code>FAISS</code> vector store</li>
+      <li>✅ Retrieves top-K relevant chunks</li>
+      <li>✅ Answers questions using <strong>gemini-1.5-flash</strong> model</li>
+      <li>✅ Interactive and modern <strong>Streamlit</strong> UI</li>
+      <li>✅ Sidebar controls for chunking, retrieval, and overlap</li>
+      <li>✅ Markdown-based output with 🎈 balloon animation on success</li>
+    </ul>
+  </div>
 
-✅ Chunks and embeds transcript using LangChain + GoogleGenerativeAIEmbeddings
+  <div class="section">
+    <h2>🧰 Tech Stack</h2>
+    <table>
+      <tr>
+        <th>Component</th>
+        <th>Technology</th>
+      </tr>
+      <tr>
+        <td>Frontend</td>
+        <td>Streamlit</td>
+      </tr>
+      <tr>
+        <td>LLM Backend</td>
+        <td>Google Gemini via LangChain</td>
+      </tr>
+      <tr>
+        <td>Embeddings</td>
+        <td>Google Generative AI Embeddings</td>
+      </tr>
+      <tr>
+        <td>Vector DB</td>
+        <td>FAISS</td>
+      </tr>
+      <tr>
+        <td>Prompting</td>
+        <td>LangChain PromptTemplate</td>
+      </tr>
+      <tr>
+        <td>Transcripts</td>
+        <td>youtube-transcript-api</td>
+      </tr>
+    </table>
+  </div>
 
-✅ Stores embeddings in FAISS vector store
-
-✅ Retrieves top-K relevant chunks
-
-✅ Answers questions using gemini-1.5-flash model
-
-✅ Interactive and modern Streamlit UI
-
-✅ Sidebar controls for chunking, retrieval, and overlap
-
-✅ Markdown-based output with balloon animation on success
-
-🧰 Tech Stack
-Component	Technology
-Frontend	Streamlit
-LLM Backend	Google Gemini via LangChain
-Embeddings	Google Generative AI Embeddings
-Vector DB	FAISS
-Prompting	LangChain PromptTemplate
-Transcripts	youtube-transcript-apis
-
-📄 License
-MIT License © [ANMOL PRAKASH]
+  <div class="section">
+    <h2>📄 License</h2>
+    <p>MIT License © <strong>ANMOL PRAKASH</strong></p>
+  </div>
